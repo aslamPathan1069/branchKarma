@@ -75,4 +75,7 @@ export class SignUpComponent implements AfterViewInit {
   closeMenu() {
     this.isOpen = false;
   }
+  // text typing
+
+  // end text type
 }
