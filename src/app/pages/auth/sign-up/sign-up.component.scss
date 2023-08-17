@@ -1,0 +1,318 @@
+.connect-today {
+  padding: 2px 50px 2px 50px;
+  // border-radius: 20%;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  opacity: 0;
+  transition: opacity 0.3s;
+  opacity: 1;
+}
+
+.text-lg {
+  font-size: 1.125rem; /* Adjust font size as needed */
+}
+
+// Button css start
+.hover-button {
+  @apply relative inline-block m-7 px-4 py-2 border-black border bg-white font-bold cursor-pointer transition duration-300 rounded-xl;
+
+  &:hover .hover-content {
+    @apply bg-black text-white bottom-0 opacity-100;
+  }
+}
+
+.hover-content {
+  @apply absolute inset-0 bg-white text-black px-4 py-2 rounded-xl opacity-0 transition duration-300;
+}
+
+.static-content {
+  @apply block;
+}
+
+// button css end
+
+/* Carousel Card */
+.carousel-card {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: white;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+/* Hover Effect */
+.carousel-card:hover {
+  transform: scale(1.05);
+}
+
+/* Carousel Controls */
+.carousel-control {
+  cursor: pointer;
+}
+
+/* Random Color Classes */
+.bg-orange-500 {
+  background-color: #ffa500; /* Orange */
+}
+
+.bg-blue-500 {
+  background-color: #3490dc; /* Blue */
+}
+
+.bg-yellow-500 {
+  background-color: #f59e0b; /* Yellow */
+}
+
+.bg-pink-500 {
+  background-color: #f472b6; /* Pink */
+}
+
+.bg-green-500 {
+  background-color: #38a169; /* Green */
+}
+
+.certificate-card {
+  width: 50%;
+  background-color: #070507;
+}
+
+// certificate start
+.contact {
+  border: 2px solid white;
+  // padding: 5px;
+}
+.certificate-grid {
+  padding: 25px 50px 75px 100px;
+  border: 1px solid rgb(97, 97, 252);
+  margin-top: 25px;
+}
+.award {
+  font-size: 200px;
+}
+
+// branch karma start here
+.blue-square {
+  background-color: #54c8e8;
+  // padding: 20%;
+  padding-left: 60%;
+  // margin-left: 60%;
+  width: 50%;
+  // height: 150%;
+}
+.create-inspire {
+  margin-left: 20%;
+  // z-index: -1;
+}
+// @media screen and (max-width: 600px) {
+//   .eintein {
+//     width: 70%;
+//   }
+// }
+
+.create-inside-repeat {
+  position: relative;
+  margin-bottom: 40%;
+  // z-index: -1;
+}
+.main-create {
+  // margin-left: 40%;
+  z-index: 1;
+}
+.quot {
+  margin-left: 70%;
+}
+.eintein {
+  width: 100%;
+  position: absolute;
+  top: 160px;
+  // bottom: -50px;
+  // right: 10px;
+  // top: -15px;
+  // z-index: 0;
+  // top: 10%;
+  // top: 1px
+  // bottom: 50%;
+  // width: 80%;
+  // padding-bottom: 45%;
+  // width: 100%;
+  // background-image: url(../../../../assets/image/map.png);
+  // background-position: left bottom;
+  // background-repeat: no-repeat;
+}
+.core-value {
+  background-color: rgb(0, 170, 156);
+}
+.Rapid-expansion {
+  background-color: rgb(255, 64, 104);
+}
+.innovation {
+  background-color: rgb(89, 33, 140);
+}
+.impact {
+  background-color: rgb(245, 186, 0);
+}
+.team-work {
+  background-color: rgb(255, 124, 0);
+}
+.Inclusion {
+  background-color: rgb(0, 170, 156);
+}
+// branch karma end here
+.animate__animated.animate__zoomIn {
+  --animate-duration: 1.5s;
+}
+.company-logo {
+  width: 23%;
+}
+/* fullscreen-menu.component.scss */
+.blue {
+  background-color: #54c8e8;
+  padding: 51%;
+  z-index: 1;
+}
+.C-I-R {
+  margin-left: 50%;
+  font-family: "Abril Fatface", Times, serif;
+  font-weight: 400;
+  line-height: 0.9em;
+}
+.main-C-I-R {
+  position: relative;
+}
+.map {
+  position: absolute;
+  z-index: -1;
+  top: 41%;
+  width: 100%;
+}
+.branch {
+  position: absolute;
+  z-index: 5;
+  // padding: 20%;
+  width: 30%;
+  // padding: 10%;
+  // background-color: #070507;
+  bottom: 25%;
+}
+.branch span {
+  margin-right: 10px;
+}
+.branch-animation {
+  background-color: black;
+  padding: 20%;
+  // width: 30%;
+}
+.map img {
+  width: 60%;
+}
+.small-device-map {
+  position: relative;
+  width: 100%;
+  // margin-bottom: 10px;
+}
+.small-device-branch {
+  background-color: black;
+  padding: 100px;
+}
+// @media only screen and (max-width: 768px) {
+
+// }
+/* For Desktop View */
+@media screen and (min-width: 1024px) {
+  .main-C-I-R {
+    margin-bottom: 19%;
+  }
+}
+
+#spin {
+  color: white;
+  // background-color: #070507;
+  &:after {
+    content: "";
+    animation: spin 4s linears infinite;
+  }
+}
+
+@keyframes spin {
+  0% {
+    content: "Karma";
+  }
+  50% {
+    content: "Bill";
+  }
+  100% {
+    content: "Buzz";
+  }
+}
+.h2 {
+  font-family: "Abril Fatface", Times, serif;
+  font-size: 2.25rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  margin-bottom: 1em;
+  text-transform: none;
+}
+.learn-with-us {
+  margin: 3%;
+}
+.core-values {
+  margin: 3%;
+}
+// cross text reveal
+body {
+  margin: 0;
+  min-height: 3000px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.outer-container {
+  max-width: 600px;
+  margin: auto;
+  width: 90%;
+  padding: 200px 0px;
+  position: relative;
+}
+
+.image-container {
+  padding-bottom: calc(1 / 1 * 100%);
+  background: black;
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
+  background-size: cover;
+  background-position: center;
+}
+
+.section-title {
+  margin: 0;
+  font-size: 64px;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: -30%;
+  transform: translateY(-50%);
+  z-index: 1;
+  white-space: nowrap;
+}
+
+.section-title.on-dark {
+  color: white;
+}
+
+.paralax-title {
+  position: relative;
+  display: block;
+}
+
+//

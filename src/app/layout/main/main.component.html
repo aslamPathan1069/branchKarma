@@ -1,0 +1,48 @@
+<section>
+  <div class="flex">
+    <div class="basis-10">
+      <app-quick-sidebar></app-quick-sidebar>
+      <!-- <app-dropdown-example></app-dropdown-example> -->
+    </div>
+    <div class="col-span-10">
+      <div class="grid grid-cols-12">
+        <div class="col-span-12">
+          <app-navbar></app-navbar>
+        </div>
+        <div class="col-span-2">
+          <app-sidebar></app-sidebar>
+        </div>
+        <div class="col-span-10">
+          <router-outlet></router-outlet>
+        </div>
+        <div class="col-span-12">
+          <app-footer></app-footer>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- <section>
+  <div class="grid grid-cols-12">
+    <div class="col-span-2">
+      <app-quick-sidebar></app-quick-sidebar>
+    </div>
+    <div class="col-span-10">
+      <div class="grid grid-cols-12">
+        <div class="col-span-12">
+          <app-navbar></app-navbar>
+        </div>
+        <div class="col-span-2">
+          <app-sidebar></app-sidebar>
+        </div>
+        <div class="col-span-10">
+          <router-outlet></router-outlet>
+        </div>
+        <div class="col-span-12">
+          <app-footer></app-footer>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
